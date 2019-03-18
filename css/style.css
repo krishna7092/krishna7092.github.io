@@ -1,0 +1,123 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: fantasy;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/images/wp.jpg);
+    height: 123vh;
+    background-size: cover;
+}
+ul{
+   float: left;
+   margin-top: 25px;
+  
+}
+li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size:30px;
+    color:#fff;
+    padding: 10px 21px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    text-decoration: none;
+    background-color: aliceblue;
+    color:black;
+}
+ul li.active a{
+     background-color: aliceblue;
+    color:black;
+}
+.second{
+     color: blanchedalmond;
+    font-size: 50px;
+    position: absolute;
+    top: 100%;
+    left: 26%;
+    transform:translate(-90%-20%);
+    text-transform: uppercase; 
+    }
+.third{
+    font-size: 50px;
+    position: absolute;
+    top: 110%;
+    left: 40%;
+    transform:translate(-90%-20%);
+    text-transform: uppercase; 
+}
+.four{
+    color:aliceblue;
+    text-decoration: none;
+     padding: 10px 20px;
+    border: 2px solid #fff;
+    background-color: black;
+}
+.login{
+    text-decoration: none;
+   color: #fff;
+    font-size: 25px;
+     float:right;
+    position:absolute;
+    top: 1%;
+    right:2%;
+    position:fixed;
+     padding: px 60px;
+    border: 3px solid blue;
+    background-color:black;
+}
+.login1{
+    background-color: black;
+    width: 200px;
+    height: 250px;
+    position:absolute;
+    top:50%;
+    left:45%;
+    right:80%;
+    padding: 10px 20px;
+   
+     
+}
+.box{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.box1{
+      width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+    
+    
+.btn{
+    position: absolute;
+    left:30%;
+    width:60%;
+    color:white;
+    padding: 5px;
+}
+h2{
+    transform: uppercase;
+    text-align:center;
+    color:white;
+}
+    
+    
+}
+    
+}
